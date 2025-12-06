@@ -5,6 +5,8 @@ hide_st_style = """
             #MainMenu {visibility: hidden;}
             footer {visibility: hidden;}
             header {visibility: hidden;}
+            /* This targets the specific 'Hosted with Streamlit' badge */
+            [data-testid="stStatusWidget"] {visibility: hidden;}
             </style>
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
@@ -76,3 +78,4 @@ with tab2:
                 mime='text/csv',
 
             )
+
