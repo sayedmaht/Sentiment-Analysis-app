@@ -3,7 +3,7 @@
 A clean and interactive web application that analyzes the sentiment of user text in real-time. Built with **Python** and **Streamlit**, this tool uses Natural Language Processing (NLP) to determine whether a given sentence is Positive, Negative, or Neutral.
 
 ## 🚀 Live Demo
-**[Click here to view the App](https://your-app-url-here.streamlit.app/)**  
+**[Click here to view the App]([https://your-app-url-here.streamlit.app/](https://sentiment-analysis-app-xp3mfh6gc6t2mhg5umhlzs.streamlit.app/))**  
 *(Paste your Streamlit Share link here after deploying)*
 
 ## 🛠️ Tech Stack
@@ -26,3 +26,4 @@ A clean and interactive web application that analyzes the sentiment of user text
 ## 👨‍💻 Author
 **Sayed Mahtab**  
 *BSCIT Student & AI Enthusiast*
+
