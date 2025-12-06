@@ -1,4 +1,14 @@
 import streamlit as st
+# --- HIDE STREAMLIT STYLE ---
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
 from textblob import TextBlob
 import pandas as pd
 
@@ -64,4 +74,5 @@ with tab2:
                 data=df.to_csv(index=False).encode('utf-8'),
                 file_name='sentiment_analysis_results.csv',
                 mime='text/csv',
+
             )
